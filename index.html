@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Funcoes javaScript</title>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="/js/funcoes.js"> </script>
+    <link rel="stylesheet" type="text/css" href="/css/estilo.css">
+</head>
+<body>
+    <div align="center">
+    <img src="../img/logo.jpg"/>
+    </div>
+    <p align="center"> Trabalho JavaScript - Prof. Josimesio Rossini </p>
+    <marquee> <p>  Disciplina Internet e Programação Web</p> </marquee>
+    <p align="center"> Foco do Trabalho é Programação java Script ligado ao HTML e CSS</p> 
+	<div class="class01">
+	   <p>01-Calcule a media de um aluno informando as 4 notas e retornado com um evento onclik=button.</p>
+       <form name="txtnota"> 
+            Digite a Primeira nota! <input type="number" name="nota1" max="10" min= "0"> <br>
+            Digite a Segunda nota! <input type="number" name="nota2" max="10" min= "0"> <br>
+            Digite a Terceira nota! <input type="number" name="nota3" max="10" min= "0"> <br>
+            Digite a Quarta nota! <input type="number" name="nota4" max="10" min= "0"> <br>
+            <br> <input type="button" value="CalculaMedia" onclick="javascript: CalculaMedia();"/> <br> <br>
+            Media: <input type="text" name="txtMedia">
+
+        </form>
+	</div>
+	<div><br><br></div>	
+	<div class="class02">
+      <p>02-Um Empregado Recebe Um salário Fixo  + 5% de comissão se a venda for abaixo de 1.000 e 20% se atingir a meta de 1.000 ou acima.</p>  
+      <form name ="frmComissão">
+         Total Vendas:<input type ="text" name="txttotalvendas"/><br>
+         Salário:<input type ="text" name="txtsalario"/><br>
+         <br><input type="button" value="CalcularComissao" onclick="javascript:calcular();"/><br>
+         Comissão:<input type ="text" name="txtcomissao"/><br> 
+         Receber:<input type ="text" name="txtreceber"/><br>
+      </form>		
+    </div>
+    <div><br><br></div>
+    <div class="class04">
+        <p>03)Desenvolva um programa que entre com cinco números e imprima o quadrado de cada número.</p>
+        <p>use a "virgula(,)" como separador</p>
+    	 Números<input type="text" id="txtNumerosQuadrado">
+        <input type="button" value="Calcular Quadrado" onclick="calcularQuadrado()">
+
+    </div>
+    <div><br><br></div>
+    <div class="class05">
+        <p>04)Peça ao usuário para digitar 5 números em uma caixa de texto. Verifique qual é o maior número e exiba-o.</p>
+        <p>use a "Virgula(,)" como separador</p>
+    	Números<input type="text" id="txtNumerosMaior">
+         <input type="button" value="Qual o Maior?" onclick="verificarMaior()">
+    </div>
+    <div><br><br></div>
+    <div class="class01">
+        <p>05)Peça ao usuário para digitar várias idades. Exiba quantas pessoas são maior de idade (18 anos) e quantas são menores.</p>
+        <p>use a "Virgula(,)" como separador </p>
+    	Idades<input type="text" id="txtIdades">
+        <input type="button" value="Enviar" onclick="verificarIdades()">
+
+    </div>
+    <div><br><br></div>
+    <div class="class02">
+        <p>06)Crie um programa que entre com os dados de altura e sexo de 5 pessoas. Imprima na tela quantas pessoas são do sexo masculino e quantas pessoas são do sexo feminino. Mostre também qual é a maior altura e se essa altura é de um homem ou uma mulher.
+        </p>
+    	<p>use a "Virgula(,)" como separador  EX: Altura:199,168,162,173,152  Sexo:M,M,F,F,M</p>
+        Altura<input type="text" id="txtAltura"><br>
+        Sexo<input type="text" id="txtSexo">
+        <input type="button" value="Verificar" onclick="verificarDados()">
+    </div>
+
+</body>
+</html>

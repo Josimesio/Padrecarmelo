@@ -1,0 +1,22 @@
+.class01{ background-color: #00FF7F;
+	      border: 5px solid gray;
+}
+.class02{background-color: #FFE4C4;
+	     border: 5px solid gray;
+}
+.class03{border: 5px solid gray;
+}
+
+.class04{background-color: #EED5B7;
+	     border: 5px solid gray;
+}
+
+.class05{background-color: #CDB79E;
+	     border: 5px solid gray;
+}
+
+body{
+margin:100px;
+padding:100px;
+background-color: #FFE4B5;
+}
